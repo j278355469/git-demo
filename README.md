@@ -152,12 +152,36 @@ github
 
 
 git remote -v
-	-	顯示目前倉庫
+	-	顯示目前連結的遠端倉庫
+
+-git push -u origin master
+	-從本地端推送到遠端(第一次)
+	-第二次更新 git
+
+-git push -f
+
+	-強制更新到遠端
 
 
+-git clone
+	-git clone https://github.com/j278355469/git-demo
+	
+	-複製專案到本地端
 
+	-本地端新增修正後
 
+		-git add.
+		-git commit -m "message"
+		-git push (確保遠端永遠為最新)
 
+-git pull
+	
+	-從遠端同步到本地專
+	
+		開啟專案的第一步
+
+-git push  --delete origin 分支名稱
+	刪除遠端分支
 
 
 
